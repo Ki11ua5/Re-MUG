@@ -247,9 +247,12 @@
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Empresa.cs" />
+    <Compile Include="Models\Estado.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Tecnico.cs" />
+    <Compile Include="Models\Tecnologia.cs" />
+    <Compile Include="Models\Tipos.cs" />
     <Compile Include="Models\Visita.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />

@@ -7,8 +7,9 @@ namespace ERP.Models
 {
     public class Empresa
     {
+        public int Id { get; set; }
         public string NombreEmp { get; set; }
-        public string Descripcion { get; set; }
-        public int Costo { get; set; }
+       
+
     }
 }

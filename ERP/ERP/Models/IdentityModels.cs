@@ -29,5 +29,7 @@ namespace ERP.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<ERP.Models.Visita> Visitas { get; set; }
     }
 }
