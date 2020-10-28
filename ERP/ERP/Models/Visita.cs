@@ -16,13 +16,14 @@ namespace ERP.Models
         public double Costo { get; set; }
         public DateTime Fecha { get; set; }
         public string Coordenadas { get; set; }
-        
+
         public Estado Estado { get; set; }
         public Tipos Tipo_visita { get; set; }
         public Empresa Empresa { get; set; }
         public Tecnologia Tecnologia { get; set; }
-         
+
         public Tecnico Tecnico { get; set; }
+
 
     }
 }

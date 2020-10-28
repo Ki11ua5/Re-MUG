@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ERPModelStoreContainer" CdmEntityContainer="ERPEntities">
+    <EntitySetMapping Name="Almacens">
+      <EntityTypeMapping TypeName="ERPModel.Almacen">
+        <MappingFragment StoreEntitySet="Almacen">
+          <ScalarProperty Name="id_Almacen" ColumnName="id_Almacen" />
+          <ScalarProperty Name="Altitud" ColumnName="Altitud" />
+          <ScalarProperty Name="Latitud" ColumnName="Latitud" />
+          <ScalarProperty Name="Ing" ColumnName="Ing" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Empresas">
+      <EntityTypeMapping TypeName="ERPModel.Empresa">
+        <MappingFragment StoreEntitySet="Empresa">
+          <ScalarProperty Name="Nombre_Empresa" ColumnName="Nombre_Empresa" />
+          <ScalarProperty Name="id_empresa" ColumnName="id_empresa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Estadoes">
+      <EntityTypeMapping TypeName="ERPModel.Estado">
+        <MappingFragment StoreEntitySet="Estado">
+          <ScalarProperty Name="Nom_Estado" ColumnName="Nom_Estado" />
+          <ScalarProperty Name="id_Estado" ColumnName="id_Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ingenieroes">
+      <EntityTypeMapping TypeName="ERPModel.Ingeniero">
+        <MappingFragment StoreEntitySet="Ingeniero">
+          <ScalarProperty Name="id_ingeniero" ColumnName="id_ingeniero" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Celular" ColumnName="Celular" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Productoes">
+      <EntityTypeMapping TypeName="ERPModel.Producto">
+        <MappingFragment StoreEntitySet="Producto">
+          <ScalarProperty Name="id_producto" ColumnName="id_producto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tecnologias">
+      <EntityTypeMapping TypeName="ERPModel.Tecnologia">
+        <MappingFragment StoreEntitySet="Tecnologia">
+          <ScalarProperty Name="Nombre_tec" ColumnName="Nombre_tec" />
+          <ScalarProperty Name="id_Tecnologia" ColumnName="id_Tecnologia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TipoVisitas">
+      <EntityTypeMapping TypeName="ERPModel.TipoVisita">
+        <MappingFragment StoreEntitySet="TipoVisita">
+          <ScalarProperty Name="Nombre_Visita" ColumnName="Nombre_Visita" />
+          <ScalarProperty Name="id_tipo_visita" ColumnName="id_tipo_visita" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Visitas">
+      <EntityTypeMapping TypeName="ERPModel.Visita">
+        <MappingFragment StoreEntitySet="Visitas">
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="Latitud" ColumnName="Latitud" />
+          <ScalarProperty Name="Altitud" ColumnName="Altitud" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Empresa" ColumnName="Empresa" />
+          <ScalarProperty Name="Tecnologia" ColumnName="Tecnologia" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="EstatusPago" ColumnName="EstatusPago" />
+          <ScalarProperty Name="EstatusCobro" ColumnName="EstatusCobro" />
+          <ScalarProperty Name="FechaMaxima" ColumnName="FechaMaxima" />
+          <ScalarProperty Name="Folio" ColumnName="Folio" />
+          <ScalarProperty Name="Ingeniero" ColumnName="Ingeniero" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

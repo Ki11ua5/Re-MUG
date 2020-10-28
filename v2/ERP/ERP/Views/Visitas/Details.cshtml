@@ -1,0 +1,122 @@
+﻿@model ERP.Models.Visita
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>Visita</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Fecha)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Fecha)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Costo)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Costo)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Latitud)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Latitud)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Altitud)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Altitud)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.EstatusPago)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.EstatusPago)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.EstatusCobro)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.EstatusCobro)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.FechaMaxima)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.FechaMaxima)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Empresa1.Nombre_Empresa)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Empresa1.Nombre_Empresa)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Estado1.Nom_Estado)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Estado1.Nom_Estado)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Ingeniero1.Nombre)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Ingeniero1.Nombre)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Tecnologia1.Nombre_tec)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Tecnologia1.Nombre_tec)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.TipoVisita.Nombre_Visita)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.TipoVisita.Nombre_Visita)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.Folio }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

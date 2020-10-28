@@ -337,6 +337,7 @@ C:\Users\carde\Documents\GitHub\Re-MUG\ERP\ERP\bin\es\Microsoft.Owin.Security.Fa
 C:\Users\carde\Documents\GitHub\Re-MUG\ERP\ERP\bin\es\Microsoft.Owin.Security.Google.resources.dll
 C:\Users\carde\Documents\GitHub\Re-MUG\ERP\ERP\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
 C:\Users\carde\Documents\GitHub\Re-MUG\ERP\ERP\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\carde\Documents\GitHub\Re-MUG\ERP\ERP\obj\Debug\ERP.csprojAssemblyReference.cache
 C:\Users\carde\Documents\GitHub\Re-MUG\ERP\ERP\obj\Debug\ERP.csproj.CoreCompileInputs.cache
 C:\Users\carde\Documents\GitHub\Re-MUG\ERP\ERP\obj\Debug\ERP.csproj.CopyComplete
 C:\Users\carde\Documents\GitHub\Re-MUG\ERP\ERP\obj\Debug\ERP.dll

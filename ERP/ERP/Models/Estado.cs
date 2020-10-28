@@ -8,8 +8,9 @@ namespace ERP.Models
 {
     public class Estado
     {
-        
+        [Key]
         public int id_estado { get; set; }
         public string Nombre { get; set; }
+
     }
 }
